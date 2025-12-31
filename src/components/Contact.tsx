@@ -39,8 +39,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Email</h4>
-                  <a href="mailto:alex@example.com" className="text-slate-400 hover:text-cyan-400 transition-colors">
-                    alex@example.com
+                  <a href="mailto:solomonyomi3@gmail.com" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                    solomonyomi3@gmail.com
                   </a>
                 </div>
               </div>
@@ -51,8 +51,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Phone</h4>
-                  <a href="tel:+1234567890" className="text-slate-400 hover:text-cyan-400 transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+2349067512921" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                    +234 906 751 2921
                   </a>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Location</h4>
-                  <p className="text-slate-400">San Francisco, CA</p>
+                  <p className="text-slate-400">Nigeria</p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function Contact() {
 
         <div className="mt-16 pt-8 border-t border-slate-700 text-center">
           <p className="text-slate-400">
-            © 2024 Alex Morgan. Built with React & Tailwind CSS.
+            © 2025 Solomon Afolabi. All rights reserved.
           </p>
         </div>
       </div>

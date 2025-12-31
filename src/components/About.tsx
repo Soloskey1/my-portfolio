@@ -13,8 +13,8 @@ export default function About() {
           <div className="space-y-6">
             <p className="text-slate-300 text-lg leading-relaxed">
               I'm a passionate frontend developer with a keen eye for design and a love for creating
-              seamless user experiences. With years of experience in modern web technologies, I
-              specialize in building responsive, accessible, and performant web applications.
+              seamless user experiences. With 3+ years of experience in modern web technologies, I
+              specialize in building responsive web applications,  blog, and landing pages for business brands.
             </p>
             <p className="text-slate-300 text-lg leading-relaxed">
               My journey in web development started with a curiosity about how websites work, and
@@ -35,6 +35,9 @@ export default function About() {
               <span className="px-4 py-2 bg-slate-800 text-cyan-400 rounded-full text-sm">
                 Next.js
               </span>
+              <span className="px-4 py-2 bg-slate-800 text-cyan-400 rounded-full text-sm">
+                JavaScript
+              </span>
             </div>
           </div>
 
@@ -53,9 +56,9 @@ export default function About() {
               <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-4">
                 <Palette className="text-cyan-400" size={24} />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">UI/UX Design</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Responsive Design</h3>
               <p className="text-slate-400">
-                Creating intuitive interfaces with attention to detail and user experience
+                Creating responsive web designs adaptable to different screen sizes
               </p>
             </div>
 

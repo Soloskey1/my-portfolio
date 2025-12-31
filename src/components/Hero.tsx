@@ -11,11 +11,11 @@ export default function Hero() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
             Hi, I'm{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-teal-400 animate-gradient">
-              Alex Morgan
+              Solomon Afolabi
             </span>
           </h1>
           <p className="text-xl sm:text-2xl text-slate-300 mb-4">
-            Frontend Developer & UI/UX Enthusiast
+            Frontend Developer & Web Design Enthusiast
           </p>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
             Crafting beautiful, responsive, and user-friendly web experiences with modern technologies
@@ -24,7 +24,7 @@ export default function Hero() {
 
         <div className="flex justify-center gap-6 mb-12">
           <a
-            href="https://github.com"
+            href="https://github.com/Soloskey1"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-slate-800 hover:bg-slate-700 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/20"
@@ -55,7 +55,7 @@ export default function Hero() {
             View My Work
           </a>
           <a
-            href="#contact"
+            href="tel:+2349067512921"
             className="px-8 py-3 border-2 border-cyan-500 text-cyan-400 font-semibold rounded-lg hover:bg-cyan-500/10 transition-all duration-300"
           >
             Get In Touch

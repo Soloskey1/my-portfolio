@@ -3,28 +3,31 @@ export default function Skills() {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Next.js', level: 85 },
-        { name: 'Tailwind CSS', level: 92 },
+        { name: 'React', level: 75 },
+        { name: 'Tailwind CSS', level: 98 },
+        { name: 'TypeScript', level: 85 },
+        { name: 'Next.js', level: 60 },
         { name: 'HTML/CSS', level: 98 },
+        { name: 'JavaScript', level: 85 },
       ],
     },
     {
       title: 'Tools & Libraries',
       skills: [
-        { name: 'Git', level: 88 },
+        { name: 'Git', level: 90 },
         { name: 'Vite', level: 85 },
-        { name: 'Redux', level: 80 },
+        { name: 'Redux', level: 70 },
         { name: 'React Query', level: 82 },
-        { name: 'Framer Motion', level: 75 },
+        { name: 'NPM', level: 70 },
+        { name: 'Shadcn-UI', level: 75}
+       // { name: 'Framer Motion', level: 75 },
       ],
     },
     {
       title: 'Other',
       skills: [
         { name: 'Responsive Design', level: 95 },
-        { name: 'API Integration', level: 88 },
+        // { name: 'API Integration', level: 88 },
         { name: 'Testing', level: 78 },
         { name: 'Accessibility', level: 85 },
         { name: 'Performance', level: 82 },

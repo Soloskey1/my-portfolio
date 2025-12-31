@@ -3,50 +3,51 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Bookstore Website',
       description:
-        'A full-featured e-commerce platform with shopping cart, payment integration, and admin dashboard built with React and Node.js.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+        "An online book store website named 'Bookie' where users can purchase, read and download a variety of books online.",
+      image: 'https://plus.unsplash.com/premium_photo-1669652639337-c513cc42ead6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9va3N8ZW58MHx8MHx8fDA%3D',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/bookie',
+      demo: 'https://soloskey1.github.io/bookie/',
     },
     {
-      title: 'Task Management App',
+      title: 'Savorita Restaurant Website',
       description:
-        'A collaborative task management application with real-time updates, drag-and-drop functionality, and team workspaces.',
-      image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'TypeScript', 'Firebase', 'Tailwind'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+        'Savorita is a web app for a restaurant where customers can view and order food. It is a advanced version of the savore.',
+      image: 'https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+      tags: ['React', 'TypeScript', 'NextJs', 'Tailwind'],
+      github: 'https://github.com/Soloskey1/savorita-website',
+      demo: 'https://savorita-website.vercel.app/',
     },
     {
-      title: 'Weather Dashboard',
+      title: 'Currency Converter',
       description:
-        'A beautiful weather dashboard with real-time data, forecasts, and interactive maps using various weather APIs.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Next.js', 'API Integration', 'Charts', 'PWA'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+        ' This is a simple currency converter web application that convert currencies based on exchange rates.',
+      image: 'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y3VycmVuY3l8ZW58MHx8MHx8fDA%3D',
+      tags: ['HTML', 'API Integration', 'JavaScript', 'CSS'],
+      github: 'https://github.com/Soloskey1/currency-converter',
+      demo: 'https://soloskey1.github.io/currency-converter/',
     },
     {
-      title: 'Portfolio CMS',
+      title: 'Ecommerce Web App',
       description:
-        'A headless CMS for portfolio websites with a drag-and-drop builder, allowing users to create stunning portfolios without coding.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'GraphQL', 'PostgreSQL', 'AWS'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+        'An online marketplace where people can view and order different category of products and services online.',
+      image: 'https://plus.unsplash.com/premium_vector-1727107302518-635256868dfd?w=352&dpr=2&h=367&auto=format&fit=crop&q=60&ixlib=rb-4.1.0',
+      tags: ['React', 'TypeScript', 'Vite'],
+      github: '#',
+      demo: 'https://deeziksmall-b6ra.vercel.app/',
     },
     {
-      title: 'Social Media Analytics',
+      title: 'Savore Website',
       description:
-        'An analytics dashboard for social media managers to track engagement, growth, and content performance across multiple platforms.',
-      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'D3.js', 'REST API', 'Redux'],
+        'A site for a restaurants, customers can explore, and order food directly from the site, and have access to customer services like cooking classes and booking for events.The websiteis smooth and look good for great user-experience.',
+      image: 'https://plus.unsplash.com/premium_photo-1661777692723-ba8dd05065d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D',
+      tags: ['Tailwind', 'JavaScript', 'HTML'],
       github: 'https://github.com',
-      demo: 'https://example.com',
+      demo: 'https://savore-restaurant-7xlo.vercel.app/',
     },
+    /*
     {
       title: 'Fitness Tracker',
       description:
@@ -55,7 +56,7 @@ export default function Projects() {
       tags: ['React Native', 'Firebase', 'Charts', 'Mobile'],
       github: 'https://github.com',
       demo: 'https://example.com',
-    },
+    }, */
   ];
 
   return (
