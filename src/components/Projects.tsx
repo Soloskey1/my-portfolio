@@ -39,13 +39,13 @@ export default function Projects() {
       demo: 'https://deeziksmall-b6ra.vercel.app/',
     },
     {
-      title: 'Savore Website',
+      title: 'Naija Delight Web App',
       description:
-        'A site for a restaurants, customers can explore, and order food directly from the site, and have access to customer services like cooking classes and booking for events.The websiteis smooth and look good for great user-experience.',
+        'Naija Delight is a Nigerian restaurant website, where customers can explore, and order food directly from the site, and have access to customer services like cooking classes and booking for events.The websiteis smooth and look good for great user-experience.',
       image: 'https://plus.unsplash.com/premium_photo-1661777692723-ba8dd05065d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D',
-      tags: ['Tailwind', 'JavaScript', 'HTML'],
+      tags: ['Tailwind CSS', 'JavaScript', 'HTML'],
       github: 'https://github.com',
-      demo: 'https://savore-restaurant-7xlo.vercel.app/',
+      demo: 'https://naija-delight.vercel.app/',
     },
     /*
     {
