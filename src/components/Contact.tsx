@@ -17,15 +17,15 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-white mb-4 text-center">
-          Get In <span className="text-cyan-400">Touch</span>
+        <h2 className="text-2xl md:text-4xl font-bold text-white mb-3 text-center">
+          Get In <span className="text-green-700">Touch</span>
         </h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto mb-12"></div>
+        <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-green-500 mx-auto mb-12"></div>
 
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-white mb-4">Let's talk about your project</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">Let's talk about your project</h3>
               <p className="text-slate-400 leading-relaxed">
                 I'm always open to discussing new projects, creative ideas, or opportunities to be
                 part of your vision. Feel free to reach out!
@@ -35,11 +35,11 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Mail className="text-cyan-400" size={20} />
+                  <Mail className="text-green-400" size={20} />
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Email</h4>
-                  <a href="mailto:solomonyomi3@gmail.com" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                  <a href="mailto:solomonyomi3@gmail.com" className="text-slate-400 hover:text-green-300 transition-colors text-sm">
                     solomonyomi3@gmail.com
                   </a>
                 </div>
@@ -47,11 +47,11 @@ export default function Contact() {
 
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Phone className="text-cyan-400" size={20} />
+                  <Phone className="text-green-400" size={20} />
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Phone</h4>
-                  <a href="tel:+2349067512921" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                  <a href="tel:+2349067512921" className="text-slate-400 hover:text-green-400 transition-colors text-sm">
                     +234 906 751 2921
                   </a>
                 </div>
@@ -59,11 +59,11 @@ export default function Contact() {
 
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="text-cyan-400" size={20} />
+                  <MapPin className="text-green-400" size={20} />
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Location</h4>
-                  <p className="text-slate-400">Nigeria</p>
+                  <p className="text-slate-400 text-sm">Nigeria</p>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Contact() {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-slate-300 mb-2 font-medium">
-                Name
+                Full Name
               </label>
               <input
                 type="text"
@@ -109,7 +109,7 @@ export default function Contact() {
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 rows={5}
-                className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-cyan-500 transition-colors resize-none"
+                className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 transition-colors resize-none"
                 placeholder="Tell me about your project..."
                 required
               />
@@ -117,7 +117,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 flex items-center justify-center gap-2"
+              className="w-full px-8 py-3 bg-gradient-to-r from-blue-500 to-green-600 text-white font-semibold rounded-lg hover:from-green-600 hover:to-blue-700 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 flex items-center justify-center gap-2"
             >
               <Send size={20} />
               Send Message

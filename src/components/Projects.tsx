@@ -44,28 +44,28 @@ export default function Projects() {
         'A site for a restaurants, customers can explore, and order food directly from the site, and have access to customer services like cooking classes and booking for events.The websiteis smooth and look good for great user-experience.',
       image: 'https://plus.unsplash.com/premium_photo-1661777692723-ba8dd05065d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D',
       tags: ['Tailwind', 'JavaScript', 'HTML'],
-      github: 'https://github.com',
+      github: 'https://github.com/ambience-hotel',
       demo: 'https://savore-restaurant-7xlo.vercel.app/',
     },
-    /*
+    
     {
-      title: 'Fitness Tracker',
+      title: 'Hotel Landing Page',
       description:
-        'A comprehensive fitness tracking app with workout plans, progress tracking, and nutrition monitoring features.',
-      image: 'https://images.pexels.com/photos/4162481/pexels-photo-4162481.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React Native', 'Firebase', 'Charts', 'Mobile'],
+        "A comprehensive landing page for a hotel, called 'Ambience Hotel and Suites'. This is a simple, user-friendly and responsive website designed to improve engagement and increase conversion rate.",
+      image: 'https://q-xx.bstatic.com/xdata/images/xphoto/608x352/45450060.webp?k=9750051ea3326054d782866f1f3f4495940f49ece6681cefb55e016283b96ead&o=',
+      tags: [ 'HTML','JSON', 'Tailwind CSS', 'Responsive Web Design'],
       github: 'https://github.com',
-      demo: 'https://example.com',
-    }, */
+      demo: 'https://ambience-hotel.vercel.app/',
+    }, 
   ];
 
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-white mb-4 text-center">
-          Featured <span className="text-cyan-400">Projects</span>
+        <h2 className="text-2xl md:text-4xl font-bold text-white mb-4 text-center">
+          Featured <span className="text-green-500">Projects</span>
         </h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto mb-12"></div>
+        <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto mb-12"></div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, idx) => (
@@ -90,7 +90,7 @@ export default function Projects() {
                   {project.tags.map((tag, tagIdx) => (
                     <span
                       key={tagIdx}
-                      className="px-3 py-1 bg-slate-700 text-cyan-400 rounded-full text-xs"
+                      className="px-3 py-1 bg-slate-700 text-green-400 rounded-full text-xs"
                     >
                       {tag}
                     </span>
@@ -101,7 +101,7 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors"
+                    className="flex items-center gap-2 text-slate-300 hover:text-green-400 transition-colors"
                   >
                     <Github size={18} />
                     <span className="text-sm">Code</span>
@@ -110,7 +110,7 @@ export default function Projects() {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors"
+                    className="flex items-center gap-2 text-slate-300 hover:text-green-400 transition-colors"
                   >
                     <ExternalLink size={18} />
                     <span className="text-sm">Demo</span>

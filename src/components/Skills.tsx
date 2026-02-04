@@ -24,7 +24,7 @@ export default function Skills() {
       ],
     },
     {
-      title: 'Other',
+      title: 'Other Skills',
       skills: [
         { name: 'Responsive Design', level: 95 },
         // { name: 'API Integration', level: 88 },
@@ -39,9 +39,9 @@ export default function Skills() {
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-white mb-4 text-center">
-          My <span className="text-cyan-400">Skills</span>
+          My <span className="text-green-600">Skills</span>
         </h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto mb-12"></div>
+        <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-green-500 mx-auto mb-12"></div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, idx) => (
@@ -54,11 +54,11 @@ export default function Skills() {
                   <div key={skillIdx}>
                     <div className="flex justify-between mb-2">
                       <span className="text-slate-300 font-medium">{skill.name}</span>
-                      <span className="text-cyan-400">{skill.level}%</span>
+                      <span className="text-green-500">{skill.level}%</span>
                     </div>
                     <div className="w-full bg-slate-700 rounded-full h-2">
                       <div
-                        className="bg-gradient-to-r from-cyan-400 to-blue-500 h-2 rounded-full transition-all duration-1000 ease-out"
+                        className="bg-gradient-to-r from-red-500 via-amber-600 to-green-500 h-2 rounded-full transition-all duration-1000 ease-out"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
